@@ -1,0 +1,42 @@
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input[type="submit"].btn,
+button.btn {
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  border: 1px solid;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+/* Radius */
+.btn-radius {
+  border-radius: 6px;
+}
+/* Sizes */
+.btn-small {
+  font-size: 0.8125em;
+  padding: 0.4125em 1.25em;
+}
+
+/* Colors */
+.btn-green {
+  color: #3cb371;
+  border-color: #3cb371;
+}
+.btn-green:hover {
+  background: #3cb371;
+  color: #fff;
+  border-color: #3cb371;
+}
