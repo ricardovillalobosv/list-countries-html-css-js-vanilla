@@ -24,5 +24,3 @@ const printModal = (content) => {
     if (e.target === modalContainer) removeModal();
   });
 };
-
-// printModal(`<h1 class='test'>Hola</h1>`);

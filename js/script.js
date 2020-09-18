@@ -6,11 +6,11 @@ const viewModal = () => {
       let elemetModal = `
         <section class='modal-card'>
           <article>
-            <small>Continente</small>
+            <small>CONTINENTE</small>
             <h1 class='modal-card__title'>${data.region}</h1>
           </article>
           <article>
-            <small>Subcontinente</small>
+            <small>SUBCONTINENTE</small>
             <h1 class='modal-card__title'>${data.subregion}</h1>
           </article>
         </section>      
@@ -31,8 +31,6 @@ const loadingApp = async () => {
   } catch (error) {
     console.log("error", error);
   }
-
-  console.log(countries);
 
   countries.forEach((country) => {
     let element = `

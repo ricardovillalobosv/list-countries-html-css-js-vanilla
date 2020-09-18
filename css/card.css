@@ -5,9 +5,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 16px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1.25em;
   background-color: #252b43;
   border-top: 3px solid #f5576c;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px 0px;
@@ -27,11 +27,11 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding-top: 16px;
+  padding-top: 1em;
 }
 
 .card-flag {
-  width: 60px;
+  width: 3.75em;
 }
 
 .card-detail {
@@ -40,14 +40,14 @@
 }
 
 .card-detail__title {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 .card-detail__subtitle {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .card-action {
-  padding-top: 20px;
+  padding-top: 1.2rem;
   justify-content: center;
 }
 
@@ -57,13 +57,13 @@
 }
 
 .card-title {
-  font-size: 28px;
+  font-size: 1.7em;
   display: inline-flex;
 }
 .card-subtitle {
-  font-size: 18px;
-  margin-top: 6px;
-  margin-left: 5px;
+  font-size: 1.125em;
+  margin-top: 0.375rem;
+  margin-left: 0.3125rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 100 !important;
 }

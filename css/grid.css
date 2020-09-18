@@ -10,7 +10,7 @@
 
 .col {
   display: flex;
-  padding: 16px;
+  padding: 1em;
   flex-basis: 0;
   min-width: 100%;
 }
